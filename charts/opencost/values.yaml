@@ -115,6 +115,8 @@ opencost:
       secret_access_key: ""
       # -- AWS secret key id
       access_key_id: ""
+      # -- Existing AWS Secret to use instead of individual values. Expects 'AWS_ACCESS_KEY_ID' and 'AWS_SECRET_ACCESS_KEY' keys inside the Secret object
+      existingSecret: ""
     # -- A list of volume mounts to be added to the pod
     extraVolumeMounts: []
     # -- Any extra environment variables you would like to pass on to the pod
